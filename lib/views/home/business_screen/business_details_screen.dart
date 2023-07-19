@@ -99,11 +99,11 @@ class _BusinessDetailsScreenState extends State<BusinessDetailsScreen> {
                 const SizedBox(
                   height: 25,
                 ),
-                const CustomVideoPlayer(
-                  videoId: "sy-KZNEO2Dk",
-                  startAt: Duration(seconds: 26),
-                  endAt: Duration(minutes: 1, seconds: 36),
-                ),
+                // const CustomVideoPlayer(
+                //   videoId: "sy-KZNEO2Dk",
+                //   startAt: Duration(seconds: 26),
+                //   endAt: Duration(minutes: 1, seconds: 36),
+                // ),
                 const SizedBox(
                   height: 15,
                 ),
@@ -118,7 +118,7 @@ class _BusinessDetailsScreenState extends State<BusinessDetailsScreen> {
                   height: 3,
                 ),
                 Text(
-                  "Video by Aman Dhattarwal",
+                  "Course by Elon",
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
                     fontSize: ScreenUtil().setSp(16),
@@ -148,23 +148,23 @@ class _BusinessDetailsScreenState extends State<BusinessDetailsScreen> {
                       Icons.timer,
                       color: Colors.grey,
                     ),
-                    const Text(
-                      " 11 minutes",
-                      style: TextStyle(
-                        color: Colors.grey,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 16,
-                      ),
-                    ),
+                    // const Text(
+                    //   " 11 minutes",
+                    //   style: TextStyle(
+                    //     color: Colors.grey,
+                    //     fontWeight: FontWeight.w500,
+                    //     fontSize: 16,
+                    //   ),
+                    // ),
                     const Spacer(),
-                    const Text(
-                      "Free",
-                      style: TextStyle(
-                        color: kPrimaryColor,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 20,
-                      ),
-                    ),
+                    // const Text(
+                    //   "Free",
+                    //   style: TextStyle(
+                    //     color: kPrimaryColor,
+                    //     fontWeight: FontWeight.w700,
+                    //     fontSize: 20,
+                    //   ),
+                    // ),
                   ],
                 ),
                 const SizedBox(
@@ -175,7 +175,7 @@ class _BusinessDetailsScreenState extends State<BusinessDetailsScreen> {
                   changeTab: changeTab,
                 ),
                 _selectedTag == 0
-                    ? PlayList(
+                    ? Lessons(
                         controller: scrollController,
                       )
                     : const Description(),

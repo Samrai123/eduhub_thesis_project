@@ -1,3 +1,4 @@
+import 'package:edu_hub_flutter/auths/login.dart';
 import 'package:edu_hub_flutter/views/home/home_screen.dart';
 import 'package:edu_hub_flutter/views/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
@@ -40,9 +41,10 @@ class MyApp extends StatelessWidget {
         home: child,
         routes: {
           HomeWidget.route: (context) => const HomeWidget(),
+          LoginScreen.route: (context) => const LoginScreen()
         },
       ),
-      child: showHome ? const HomeWidget() : const OnboardingScreen(),
+      child: showHome ? const LoginScreen() : const OnboardingScreen(),
     );
   }
 }

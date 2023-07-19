@@ -102,16 +102,16 @@ class _FlutterDetailsScreenState extends State<FlutterDetailsScreen> {
                 const SizedBox(
                   height: 25,
                 ),
-                const CustomVideoPlayer(
-                  videoId: "j-LOab_PzzU",
-                  startAt: Duration(seconds: 26),
-                  endAt: Duration(minutes: 1, seconds: 36),
-                ),
+                // const CustomVideoPlayer(
+                //   videoId: "j-LOab_PzzU",
+                //   startAt: Duration(seconds: 26),
+                //   endAt: Duration(minutes: 1, seconds: 36),
+                // ),
                 const SizedBox(
                   height: 15,
                 ),
                 Text(
-                  "Master Flutter in 8 hours",
+                  "Master Flutter ",
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: ScreenUtil().setSp(20),
@@ -147,27 +147,27 @@ class _FlutterDetailsScreenState extends State<FlutterDetailsScreen> {
                     const SizedBox(
                       width: 15,
                     ),
-                    const Icon(
-                      Icons.timer,
-                      color: Colors.grey,
-                    ),
-                    const Text(
-                      " 8 Hours",
-                      style: TextStyle(
-                        color: Colors.grey,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 16,
-                      ),
-                    ),
+                    // const Icon(
+                    //   Icons.timer,
+                    //   color: Colors.grey,
+                    // ),
+                    // const Text(
+                    //   " 8 Hours",
+                    //   style: TextStyle(
+                    //     color: Colors.grey,
+                    //     fontWeight: FontWeight.w500,
+                    //     fontSize: 16,
+                    //   ),
+                    // ),
                     const Spacer(),
-                    const Text(
-                      "₹1999/-",
-                      style: TextStyle(
-                        color: kPrimaryColor,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 20,
-                      ),
-                    ),
+                    // const Text(
+                    //   "₹1999/-",
+                    //   style: TextStyle(
+                    //     color: kPrimaryColor,
+                    //     fontWeight: FontWeight.w700,
+                    //     fontSize: 20,
+                    //   ),
+                    // ),
                   ],
                 ),
                 const SizedBox(
@@ -178,7 +178,7 @@ class _FlutterDetailsScreenState extends State<FlutterDetailsScreen> {
                   changeTab: changeTab,
                 ),
                 _selectedTag == 0
-                    ? PlayList(
+                    ? Lessons(
                         controller: scrollController,
                       )
                     : const Description(),
@@ -209,9 +209,9 @@ class _FlutterDetailsScreenState extends State<FlutterDetailsScreen> {
   }
 }
 
-class PlayList extends StatelessWidget {
+class Lessons extends StatelessWidget {
   final ScrollController controller;
-  const PlayList({Key? key, required this.controller}) : super(key: key);
+  const Lessons({Key? key, required this.controller}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -268,7 +268,7 @@ class CustomTabView extends StatefulWidget {
 }
 
 class _CustomTabViewState extends State<CustomTabView> {
-  final List<String> _tags = ["Playlist (12)", "Description"];
+  final List<String> _tags = ["Lessons ", "Description"];
 
   Widget _buildTags(int index) {
     return GestureDetector(

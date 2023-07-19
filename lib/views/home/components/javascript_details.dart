@@ -102,11 +102,11 @@ class _JavaScriptDetailsScreenState extends State<JavaScriptDetailsScreen> {
                 const SizedBox(
                   height: 25,
                 ),
-                const CustomVideoPlayer(
-                  videoId: "jS4aFq5-91M",
-                  startAt: Duration(seconds: 26),
-                  endAt: Duration(minutes: 1, seconds: 36),
-                ),
+                // const CustomVideoPlayer(
+                //   videoId: "jS4aFq5-91M",
+                //   startAt: Duration(seconds: 26),
+                //   endAt: Duration(minutes: 1, seconds: 36),
+                // ),
                 const SizedBox(
                   height: 15,
                 ),
@@ -160,14 +160,14 @@ class _JavaScriptDetailsScreenState extends State<JavaScriptDetailsScreen> {
                       ),
                     ),
                     const Spacer(),
-                    const Text(
-                      "₹1999/-",
-                      style: TextStyle(
-                        color: kPrimaryColor,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 20,
-                      ),
-                    ),
+                    // const Text(
+                    //   "₹1999/-",
+                    //   style: TextStyle(
+                    //     color: kPrimaryColor,
+                    //     fontWeight: FontWeight.w700,
+                    //     fontSize: 20,
+                    //   ),
+                    // ),
                   ],
                 ),
                 const SizedBox(
@@ -275,14 +275,6 @@ class JSCard extends StatelessWidget {
                 style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w500,
-                ),
-              ),
-              Text(
-                lesson.duration,
-                style: const TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w500,
-                  color: Colors.grey,
                 ),
               ),
             ],

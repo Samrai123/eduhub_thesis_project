@@ -101,11 +101,11 @@ class _DartDetailsScreenState extends State<DartDetailsScreen> {
                 const SizedBox(
                   height: 25,
                 ),
-                const CustomVideoPlayer(
-                  videoId: "Ej_Pcr4uC2Q",
-                  startAt: Duration(seconds: 26),
-                  endAt: Duration(minutes: 1, seconds: 00),
-                ),
+                // const CustomVideoPlayer(
+                //   videoId: "Ej_Pcr4uC2Q",
+                //   startAt: Duration(seconds: 26),
+                //   endAt: Duration(minutes: 1, seconds: 00),
+                // ),
                 const SizedBox(
                   height: 15,
                 ),
@@ -150,23 +150,23 @@ class _DartDetailsScreenState extends State<DartDetailsScreen> {
                       Icons.timer,
                       color: Colors.grey,
                     ),
-                    const Text(
-                      " 2 Hours",
-                      style: TextStyle(
-                        color: Colors.grey,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 16,
-                      ),
-                    ),
+                    // const Text(
+                    //   " 2 Hours",
+                    //   style: TextStyle(
+                    //     color: Colors.grey,
+                    //     fontWeight: FontWeight.w500,
+                    //     fontSize: 16,
+                    //   ),
+                    // ),
                     const Spacer(),
-                    const Text(
-                      "₹1999/-",
-                      style: TextStyle(
-                        color: kPrimaryColor,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 20,
-                      ),
-                    ),
+                    // const Text(
+                    //   "₹1999/-",
+                    //   style: TextStyle(
+                    //     color: kPrimaryColor,
+                    //     fontWeight: FontWeight.w700,
+                    //     fontSize: 20,
+                    //   ),
+                    // ),
                   ],
                 ),
                 const SizedBox(
@@ -276,14 +276,6 @@ class _DartLessonCard extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                 ),
               ),
-              Text(
-                lesson.duration,
-                style: const TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w500,
-                  color: Colors.grey,
-                ),
-              ),
             ],
           ),
         ),
@@ -327,7 +319,7 @@ class CustomTabView extends StatefulWidget {
 }
 
 class _CustomTabViewState extends State<CustomTabView> {
-  final List<String> _tags = ["Playlist (6)", "Description"];
+  final List<String> _tags = ["Lesson", "Description"];
 
   Widget _buildTags(int index) {
     return GestureDetector(

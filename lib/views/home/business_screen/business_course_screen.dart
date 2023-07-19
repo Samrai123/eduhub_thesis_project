@@ -122,39 +122,39 @@ class _BusinessCourseScreenState extends State<BusinessCourseScreen> {
                             ),
                             Row(
                               children: [
-                                ClipPath(
-                                  clipper: BestSellerClipper(),
-                                  child: Container(
-                                    color: kGreenColor,
-                                    padding: const EdgeInsets.only(
-                                        left: 20, top: 5, right: 20, bottom: 5),
-                                    child: Shimmer.fromColors(
-                                      baseColor: Colors.grey.shade800,
-                                      highlightColor: Colors.white,
-                                      child: const Text(
-                                        "NEWLY LAUNCHED",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),
-                                      ),
-                                    ),
-                                  ),
-                                ),
+                                // ClipPath(
+                                //   clipper: BestSellerClipper(),
+                                //   child: Container(
+                                //     color: kGreenColor,
+                                //     padding: const EdgeInsets.only(
+                                //         left: 20, top: 5, right: 20, bottom: 5),
+                                //     child: Shimmer.fromColors(
+                                //       baseColor: Colors.grey.shade800,
+                                //       highlightColor: Colors.white,
+                                //       child: const Text(
+                                //         "NEWLY LAUNCHED",
+                                //         style: TextStyle(
+                                //             fontWeight: FontWeight.w600),
+                                //       ),
+                                //     ),
+                                //   ),
+                                // ),
                                 SizedBox(
                                   width: ScreenUtil().setWidth(6),
                                 ),
-                                RichText(
-                                  maxLines: 1,
-                                  text: TextSpan(
-                                    children: [
-                                      TextSpan(
-                                        text: " @ ₹999/- only",
-                                        style: kHeadingTextStyle.copyWith(
-                                            fontSize: ScreenUtil().setSp(18),
-                                            color: Color(0xFFf96d6d)),
-                                      ),
-                                    ],
-                                  ),
-                                ),
+                                // RichText(
+                                //   maxLines: 1,
+                                //   text: TextSpan(
+                                //     children: [
+                                //       TextSpan(
+                                //         text: " @ ₹999/- only",
+                                //         style: kHeadingTextStyle.copyWith(
+                                //             fontSize: ScreenUtil().setSp(18),
+                                //             color: Color(0xFFf96d6d)),
+                                //       ),
+                                //     ],
+                                //   ),
+                                // ),
                               ],
                             ),
                             SizedBox(height: ScreenUtil().setHeight(15)),
@@ -314,7 +314,7 @@ class _BusinessCourseScreenState extends State<BusinessCourseScreen> {
                                             color: kPrimaryColor,
                                           ),
                                           child: Text(
-                                            "Buy Now",
+                                            "Start Now",
                                             style: kSubtitleTextStyle.copyWith(
                                               color: Colors.white,
                                               fontWeight: FontWeight.bold,

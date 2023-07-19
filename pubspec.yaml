@@ -15,11 +15,15 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_screenutil: ^5.5.3+2
-  flutter_staggered_animations: ^1.0.0
-  like_button: ^2.0.4
-  shared_preferences: ^2.0.15
-  shimmer: ^2.0.0
-  youtube_player_iframe: ^2.3.0
+  flutter_staggered_animations: ^1.1.1
+  google_fonts: ^4.0.4
+  hexcolor: ^3.0.1
+  image_picker: ^0.8.7+5
+  like_button: ^2.0.5
+  shared_preferences: ^2.1.1
+  shimmer: ^3.0.0
+  youtube_player_iframe: ^4.0.4
+  percent_indicator: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -27,7 +31,7 @@ dev_dependencies:
   integration_test:
     sdk: flutter
 
-  flutter_launcher_icons: ^0.9.3
+  flutter_launcher_icons: ^0.13.1
   flutter_lints: ^2.0.0
 
 #####

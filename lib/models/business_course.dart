@@ -14,25 +14,25 @@ class BusinessCourse {
 
 List<BusinessCourse> courses = [
   BusinessCourse(
-    author: "Aman Dhattarwal",
+    author: "Elon",
     completedPercentage: .45,
     name: "How to become entrepreneur with no money ?",
     thumbnail: "assets/images/businessman.png",
   ),
   BusinessCourse(
-    author: "Aman Dhattarwal",
+    author: "Elon",
     completedPercentage: .25,
     name: "How to boost confidence while speaking ?",
     thumbnail: "assets/images/role-model.png",
   ),
   BusinessCourse(
-    author: "Ankur Warikoo",
+    author: "Ankur ",
     completedPercentage: .65,
     name: "How to become a well behaved businessman ?",
     thumbnail: "assets/images/businessman.png",
   ),
   BusinessCourse(
-    author: "Aman Dhattarwal",
+    author: "Elon",
     completedPercentage: .55,
     name: "How to face the challenging market ?",
     thumbnail: "assets/images/role-model.png",

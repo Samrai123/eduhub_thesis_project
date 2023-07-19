@@ -141,23 +141,23 @@ class _DevelopmentCourseScreenState extends State<DevelopmentCourseScreen> {
                             SizedBox(
                               height: ScreenUtil().setHeight(20),
                             ),
-                            ClipPath(
-                              clipper: BestSellerClipper(),
-                              child: Container(
-                                color: kBestSellerColor,
-                                padding: const EdgeInsets.only(
-                                    left: 20, top: 5, right: 20, bottom: 5),
-                                child: Shimmer.fromColors(
-                                  baseColor: Colors.grey.shade800,
-                                  highlightColor: Colors.white,
-                                  child: const Text(
-                                    "BESTSELLER",
-                                    style:
-                                        TextStyle(fontWeight: FontWeight.w600),
-                                  ),
-                                ),
-                              ),
-                            ),
+                            // ClipPath(
+                            //   clipper: BestSellerClipper(),
+                            //   child: Container(
+                            //     color: kBestSellerColor,
+                            //     padding: const EdgeInsets.only(
+                            //         left: 20, top: 5, right: 20, bottom: 5),
+                            //     child: Shimmer.fromColors(
+                            //       baseColor: Colors.grey.shade800,
+                            //       highlightColor: Colors.white,
+                            //       child: const Text(
+                            //         "BESTSELLER",
+                            //         style:
+                            //             TextStyle(fontWeight: FontWeight.w600),
+                            //       ),
+                            //     ),
+                            //   ),
+                            // ),
                             SizedBox(height: ScreenUtil().setHeight(15)),
                             Text(
                               'Development',
@@ -187,26 +187,26 @@ class _DevelopmentCourseScreenState extends State<DevelopmentCourseScreen> {
                               ],
                             ),
                             SizedBox(height: 20),
-                            RichText(
-                              maxLines: 2,
-                              text: TextSpan(
-                                children: [
-                                  TextSpan(
-                                    text: "₹1999/-",
-                                    style: kHeadingTextStyle.copyWith(
-                                      fontSize: ScreenUtil().setSp(27),
-                                    ),
-                                  ),
-                                  TextSpan(
-                                    text: "₹4999/-",
-                                    style: TextStyle(
-                                      color: kTextColor.withOpacity(.5),
-                                      decoration: TextDecoration.lineThrough,
-                                    ),
-                                  )
-                                ],
-                              ),
-                            ),
+                            // RichText(
+                            //   maxLines: 2,
+                            //   text: TextSpan(
+                            //     children: [
+                            //       TextSpan(
+                            //         text: "₹1999/-",
+                            //         style: kHeadingTextStyle.copyWith(
+                            //           fontSize: ScreenUtil().setSp(27),
+                            //         ),
+                            //       ),
+                            //       TextSpan(
+                            //         text: "₹4999/-",
+                            //         style: TextStyle(
+                            //           color: kTextColor.withOpacity(.5),
+                            //           decoration: TextDecoration.lineThrough,
+                            //         ),
+                            //       )
+                            //     ],
+                            //   ),
+                            // ),
                           ],
                         )),
                   ),
@@ -326,7 +326,7 @@ class _DevelopmentCourseScreenState extends State<DevelopmentCourseScreen> {
                                           color: kPrimaryColor,
                                         ),
                                         child: Text(
-                                          "Buy Now",
+                                          "Start Now",
                                           style: kSubtitleTextStyle.copyWith(
                                             color: Colors.white,
                                             fontWeight: FontWeight.bold,

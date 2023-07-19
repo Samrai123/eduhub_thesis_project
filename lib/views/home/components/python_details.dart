@@ -101,11 +101,11 @@ class _PythonDetailsScreenState extends State<PythonDetailsScreen> {
                 const SizedBox(
                   height: 25,
                 ),
-                const CustomVideoPlayer(
-                  videoId: "gfDE2a7MKjA",
-                  startAt: Duration(seconds: 26),
-                  endAt: Duration(minutes: 1, seconds: 36),
-                ),
+                // const CustomVideoPlayer(
+                //   videoId: "gfDE2a7MKjA",
+                //   startAt: Duration(seconds: 26),
+                //   endAt: Duration(minutes: 1, seconds: 36),
+                // ),
                 const SizedBox(
                   height: 15,
                 ),
@@ -159,14 +159,14 @@ class _PythonDetailsScreenState extends State<PythonDetailsScreen> {
                       ),
                     ),
                     const Spacer(),
-                    const Text(
-                      "₹1999/-",
-                      style: TextStyle(
-                        color: kPrimaryColor,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 20,
-                      ),
-                    ),
+                    // const Text(
+                    //   "₹1999/-",
+                    //   style: TextStyle(
+                    //     color: kPrimaryColor,
+                    //     fontWeight: FontWeight.w700,
+                    //     fontSize: 20,
+                    //   ),
+                    // ),
                   ],
                 ),
                 const SizedBox(
@@ -277,14 +277,6 @@ class _PythonLessonCard extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                 ),
               ),
-              Text(
-                lesson.duration,
-                style: const TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w500,
-                  color: Colors.grey,
-                ),
-              ),
             ],
           ),
         ),
@@ -312,7 +304,7 @@ class Description extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.only(top: 20.0),
       child: Text(
-          "This Python Programming in Hindi tutorial is a complete python course in Hindi comprising of 13 Python chapters and 3 Python Projects. After watching this course you can learn Python programming easily in Hindi. This Python programming course for beginners in Hindi is designed keeping in mind the current trend and recent changes in Python. This course is designed to teach Python to beginners making it one of the best sources to learn python in Hindi for beginners."),
+          "This Python Programming  tutorial is a complete python course  comprising of 13 Python chapters and 3 Python Projects.  This course is designed to teach Python to beginners making it one of the best sources to learn python for beginners."),
     );
   }
 }
@@ -328,7 +320,7 @@ class CustomTabView extends StatefulWidget {
 }
 
 class _CustomTabViewState extends State<CustomTabView> {
-  final List<String> _tags = ["Playlist (11)", "Description"];
+  final List<String> _tags = ["Lesson ", "Description"];
 
   Widget _buildTags(int index) {
     return GestureDetector(

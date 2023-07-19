@@ -1,5 +1,6 @@
 import 'package:edu_hub_flutter/constants/size.dart';
 import 'package:edu_hub_flutter/views/home/components/catergories_featured.dart';
+import 'package:edu_hub_flutter/views/progress.dart';
 import 'package:flutter/material.dart';
 import '../../constants/color.dart';
 
@@ -15,7 +16,7 @@ class _HomeWidgetState extends State<HomeWidget> {
   int _selectedIndex = 0;
   static const List<Widget> _widgetOptions = <Widget>[
     FeaturedScreen(),
-    FeaturedScreen(),
+    ProgressScreen(),
     FeaturedScreen(),
   ];
   @override
